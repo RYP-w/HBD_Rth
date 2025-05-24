@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+canvas{display:block}
+.title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  z-index: 10;
+  pointer-events: none;
+  font-family: "Source Sans Pro";
+}
+
+.title h1 {
+  font-size: 80px;
+  font-weight: 100;
+  margin: 0;
+  max-width: 700px;       /* batasi lebar maksimal */
+  white-space: normal;    /* izinkan teks membungkus */
+  word-break: break-word;
+}
+
+.title h2 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 10px;
+}
